@@ -1,17 +1,63 @@
-# API Base URLs
 
-## https://tutorial-api.fullstack.clarusway.com/
+# Tutorial App
 
-### API ENDPOINTS
+<div align="center">
+  <img src="./src/assets/tutorial.gif" />
+</div>
 
-- GET `tutorials/` get all Tutorials
-- GET `tutorials/:id/` get Tutorial by id
-- POST `tutorials/` add new Tutorial
-- PUT `tutorials/:id/` update Tutorial by id
-- PATCH `tutorials/:id/` patch Tutorial by id
-- DELETE `tutorials/:id/` remove Tutorial by id
-- DELETE `tutorials/` remove all Tutorials
+## About the Project
 
-# Deployed Frontend
+In this project created with React, I have implemented data insertion, data update, and data deletion operations on the API used
 
-## https://tutorial.fullstack.clarusway.com/
+## Live Demo
+
+[Tutorial App]()
+
+## Features
+
+- Data is retrieved from the API using the GET operation.
+- Data is added to the API by performing a POST operation.
+- Data can be deleted from the API by executing a DELETE operation.
+- The data in the API can be modified by using the PUT operation.
+
+## Project Skeleton
+
+```
+Tutorial App(folder)
+|
+|----readme.md         
+SOLUTION
+├── public
+│     └── index.html
+├── src
+│    ├── assets
+│    │       └── [images]
+│    ├── components
+│    │       ├── AddTutorial.jsx
+│    │       ├── EditTutorial.jsx  
+│    │       └── TutorialList.jsx 
+│    ├── pages
+│    │       └── Home.jsx        
+│    ├── App.js
+│    └── index.js
+├── package.json
+└── yarn.lock
+```
+
+## Screenshots
+
+<div align="center">
+  <img src="./src/assets/Screenshot_1.jpg"  width="35%" height="500" />
+  <img src="./src/assets/Screenshot_2.jpg"  width="55%" height="600" />
+  <img src="./src/assets/Screenshot_3.jpg"  width="90.5%" height="450" />
+</div>
+
+## Compatibility
+
+The project is compatible with both wide-screen computers and mobile devices.
+
+## Dependencies
+
+- Bootstrap
+- Axios
+- React-Icons
